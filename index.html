@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatty Node</title>
+    <title>Hectober Fest 2023</title>
     <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
     <script defer src="src/client.js"></script>
     
@@ -11,21 +11,28 @@
 </head>
 <body>
     <nav>
-        <img class="logo" src="" alt="">
+      <h2>Welcome to Hectober Fest 2023</h2>
     </nav>
+
     <div class="container">
-        <div class="message left">Hello this is harsh</div>
-        <div class="message right">Hello Harsh</div>
-        
+      <div class="membersContainer">
+        <div class="message left">Harsh joined the chat</div>
+      </div>
 
+      <div class="messageContainer">
+        <div class="messageBox">
+          <div class="message left">Hello this is harsh</div>
+          <div class="message right">Hello Harsh</div>
+        </div>
+        <div class="send">
+          <form action="#" id = "send-container">
+              <input type="text" name="messageInput" id="messageInput" autocomplete="off" placeholder="Type message"/>
+              <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      
+      
     </div>
-    <div class="send">
-        <form action="#" id = "send-container">
-            <input type="text" name = "messageInp" id="messageInp">
-            <button class="btn" type="submit">Send</button>
-        </form>
-        
-    </div>
-
 </body>
 </html>
