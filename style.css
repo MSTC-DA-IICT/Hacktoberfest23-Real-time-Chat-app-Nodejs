@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .logo{
     display: block;
     margin: auto;
@@ -6,64 +7,93 @@
 }
 
 /*body{
+=======
+>>>>>>> 36b11a809fe3fb46dabbe366eed1cd6f685913b1
 
+nav{
+  text-align: center;
 }
 */
 .container{
-    max-width: 955px;
-    /*background-color: greenyellow;*/
-    border: 2px solid black;
-    margin: auto;
-    height: 60vh;
-    padding: 33px;
-    overflow-y: auto;
-    margin-bottom: 23px;
+  width: 95vw;
+  min-height: 88vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border: 0.05rem solid black;
+  border-radius: 0.5rem;
+} 
 
+.membersContainer{
+  padding: 1rem;
+  border-right: 0.05rem solid black;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.messageContainer{
+  padding: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  display: grid;
+  grid-template-rows: 92% 8%;
+}
+
+.messageBox{
+  margin: 0.5rem;
+  overflow-y: auto;
 }
 
 .message{
-    background-color: goldenrod;
-    width: 24%;
-    padding: 10px;
-    margin: 17px 12px;
-    border: 2px solid black;
-    border-radius: 10px;
-
+  border: 0.05rem solid black;
+  border-radius: 0.35rem;
+  display: inline;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .left{
-    float: left;
-    clear: both;
+  float: left;
+  clear: both;
 }
 
 .right{
-    float: right;
-    clear: both;
+  float: right;
+  clear: both;
 }
 
 .send{
-    text-align: center;
-
+  text-align: center;
+  padding: 0.5rem;
 }
 
-#send-contianer{
-    display: block;
-    margin: auto;
-    text-align: center;
-    max-width: 985px;
-    width: 100%;
+#send-container{
+  display: flex;
+  justify-content: center;
 }
 
-#messageInp{
-    width: 58%;
-    border: 2px solid black;
-    border-radius: 6px;
-    height: 34px;
+#messageInput{
+  width: 80%;
+  color: black;
+  height: 2rem;
+  float: left;
+  background: 0;
+  border: 0;
+  outline: none;
+  border-bottom: 0.05rem solid black;
+  margin-bottom: 0.5rem;
+}
+
+#messageInput:focus{
+  outline: none;
+  box-shadow: none;
 }
 
 .btn{
-    cursor: pointer;
-    border: 2px solid black;
-    border-radius: 6px;
-    height: 34px;
+  cursor: pointer;
+  height: 2rem;
+  width: 4.5rem;
+  border: 0.1rem solid black;
+  border-radius: 5rem;
+  float: right;
 }
