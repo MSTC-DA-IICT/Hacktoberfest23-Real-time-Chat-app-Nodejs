@@ -58,4 +58,4 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Simple build for production
 
-    $ node server.js
+    $ npm run server
