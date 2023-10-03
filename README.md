@@ -49,7 +49,6 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
  You can find more information about the installation on the [official MongodB website](https://www.mongodb.com/languages/javascript/mongodb-and-npm-tutorial)
 
-
 ---
 
 ## Running the project  
@@ -59,3 +58,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Simple build for production
 
     $ npm run server
+---  
+## Mentors  
+- [Devang Vaghani](https://github.com/devangsvaghani)  
+- [Harsh Mungara](https://github.com/Harsh62004)
